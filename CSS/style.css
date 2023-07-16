@@ -1,0 +1,255 @@
+.bannerBgImage {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background: url("/images/clickphoto.jpg");
+    background-position: center;
+    background-size: cover; 
+ 
+    justify-content: center;     
+   
+    background-repeat: no-repeat;
+    text-align: center;
+    animation: change 20s infinite ease-in-out;
+
+    }
+
+
+
+
+.imgAnim a{
+    background: #646566;
+    padding: 14px 27px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+    color: #e1dee1;
+
+}
+.imgAnim a:hover{
+    background: #1e3744;
+    color: #fff;
+}
+    
+@keyframes change{
+
+        0%{
+            background-image: url(/images/clickphoto.jpg);
+        }
+        60%{
+            background-image: url(/images/img1.jpg);
+        }
+        
+        65%{
+            background-image: url(/images/img8.jpg);
+        }
+        
+
+    }
+
+
+    .bannerText {
+    text-align: left; position: absolute;
+    top: 50%; left: 50%;
+    font-size: xx-large;
+    font-weight: 600;
+    
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+        }
+h1 {
+        font-size: 94px;
+        font-weight: 900;
+}
+
+img{
+
+    float: right;
+    padding-bottom: -150px;
+    bottom: 20px;
+}
+.card{
+    
+    transition: all 0.2s;
+}
+.card:hover{
+
+    transform: scale(1.15);
+}
+.shadow{
+    transition: all 0.4s;
+}
+.shadow:hover{
+    transform:scale(1.03);
+}
+
+
+.card1{
+    
+  background-color: rgb(166, 222, 236);
+  width: 500px;
+  height: 200px;
+  
+}
+
+.card{
+    
+  background-color: rgb(166, 222, 236);
+ 
+  
+}
+
+
+  html{
+    scroll-behavior: smooth;
+    scroll-padding:
+    var(--scroll-padding, 6rem);
+
+  }
+
+
+  p.bannerDesc{
+    animation-delay: 2s;
+}
+
+.links.bannerDesc{
+    animation-delay: 3s;
+}
+.bannerDesc{
+    animation: slideleft 2s linear forwards;
+}
+@keyframes slideleft{
+
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 2;
+    }
+
+}
+p.bannerDesc{
+    animation-delay: 1s;
+}
+.links.bannerDesc{
+    animation-delay: 2s;
+}
+
+
+
+
+  p.main{
+    animation-delay: 2s;
+}
+
+.links.main{
+    animation-delay: 4s;
+}
+.main{
+    animation: slideleft 2s linear forwards;
+}
+@keyframes slideleft{
+
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+
+}
+p.main{
+    animation-delay: 1s;
+}
+.links.main{
+    animation-delay: 2s;
+}
+
+
+
+
+
+
+.change1{
+
+
+    height: 90vh;
+   
+    overflow: hidden;
+   
+    background: url("/images/across.jpg");
+    background-position: center;
+    background-size: cover; 
+
+
+      
+    animation: change1 20s infinite ease-in-out;
+
+}
+
+@keyframes change1{
+
+    0%{
+        background-image: url(/images/edit1.jpg);
+    }
+    20%{
+        background-image: url(/images/edit2.jpg);
+    }
+    
+    60%{
+        background-image: url(/images/edit3.jpg);
+    }   
+
+}
+
+
+body{
+    font-family:  'Courier New', monospace;
+    
+}
+
+.change{
+    width: 860px;
+}
+
+.apple{
+    position: relative;  
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+        
+        
+
+}
+
+.cp-text{ color: hsl(0, 0%, 99%); text-shadow: 0 1px rgba(201, 194, 194, 0.974);}
+
+
+.hello{
+    text-align: center;
+}
+body{
+font-family: 'Open Sans', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+
+}
+
+
+.hidden {
+
+    opacity: 0;
+    
+    filter: blur (5px);
+     transform: translateX(-100%);
+      transition: all 2s;
+    }
+    
+    .show {
+    opacity: 1;
+    filter: blur(0);
+     transform: translateX(0);
+    }
