@@ -34,14 +34,14 @@
 @keyframes change{
 
         0%{
-            background-image: url(/images/clickphoto.jpg);
+            background-image: url(images/clickphoto.jpg);
         }
         60%{
-            background-image: url(/images/img1.jpg);
+            background-image: url(images/img1.jpg);
         }
         
         65%{
-            background-image: url(/images/img8.jpg);
+            background-image: url(images/img8.jpg);
         }
         
 
@@ -181,7 +181,7 @@ p.main{
    
     overflow: hidden;
    
-    background: url("/images/across.jpg");
+    background: url("images/across.jpg");
     background-position: center;
     background-size: cover; 
 
@@ -194,14 +194,14 @@ p.main{
 @keyframes change1{
 
     0%{
-        background-image: url(/images/edit1.jpg);
+        background-image: url(images/edit1.jpg);
     }
     20%{
-        background-image: url(/images/edit2.jpg);
+        background-image: url(images/edit2.jpg);
     }
     
     60%{
-        background-image: url(/images/edit3.jpg);
+        background-image: url(images/edit3.jpg);
     }   
 
 }
