@@ -2,7 +2,7 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background: url("/images/clickphoto.jpg");
+    background: url("images/clickphoto.jpg");
     background-position: center;
     background-size: cover; 
  
