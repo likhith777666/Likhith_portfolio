@@ -2,7 +2,7 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background: url("./images/clickphoto.jpg");
+    background: url("../images/clickphoto.jpg");
     background-position: center;
     background-size: cover; 
  
@@ -34,14 +34,14 @@
 @keyframes change{
 
         0%{
-            background-image: url(./images/clickphoto.jpg);
+            background-image: url(../images/clickphoto.jpg);
         }
         60%{
-            background-image: url(./images/img1.jpg);
+            background-image: url(../images/img1.jpg);
         }
         
         65%{
-            background-image: url(./images/img8.jpg);
+            background-image: url(../images/img8.jpg);
         }
         
 
