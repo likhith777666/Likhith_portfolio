@@ -31,22 +31,6 @@
     color: #fff;
 }
     
-@keyframes change{
-
-        0%{
-            background-image: url(../images/clickphoto.jpg);
-        }
-        60%{
-            background-image: url(../images/img1.jpg);
-        }
-        
-        65%{
-            background-image: url(../images/img8.jpg);
-        }
-        
-
-    }
-
 
     .bannerText {
     text-align: left; position: absolute;
